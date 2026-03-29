@@ -88,7 +88,7 @@
         } catch (e) { alert("Lobby Active State Not Found"); }
     };
 
-    // --- Drag Logic ---
+    // the thing which let ya drag the top part.
     let m1=0, m2=0, m3=0, m4=0;
     const header = document.getElementById('kirus-header');
     header.onmousedown = (e) => {
